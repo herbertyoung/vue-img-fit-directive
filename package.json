@@ -1,0 +1,36 @@
+{
+  "name": "vue-img-fit-directive",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/vue-img-fit-directive.common.js",
+  "module": "dist/vue-img-fit-directive.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbertyoung/vue-img-fit-directive.git"
+  },
+  "keywords": [
+    "vue-img-fit-directive"
+  ],
+  "author": "Herbert Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herbertyoung/vue-img-fit-directive/issues"
+  },
+  "homepage": "https://github.com/herbertyoung/vue-img-fit-directive#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rollup": "^2.0.2",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
