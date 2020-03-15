@@ -33,6 +33,7 @@ const strategies = {
       classList.add('img-fit');
     } else {
       style.width = style.height = '100%';
+      style.display = 'block';
     }
   },
   cover: function ({ el, wrapperWidth, wrapperHeight }) {
@@ -47,6 +48,7 @@ const strategies = {
       classList.add('img-fit');
     } else {
       style.width = style.height = '100%';
+      style.display = 'block';
     }
   }
 };
